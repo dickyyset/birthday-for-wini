@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      color: white;
+    }
+
+    .container {
+      margin-top: 100px;
+    }
+
+    h1 {
+      font-size: 50px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      background-color: white;
+      color: #ff6b81;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #ffe0e6;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Happy Birthday ❤️</h1>
+    <p>Untuk kamu yang paling spesial di hidup aku</p>
+
+    <button onclick="showMessage()">Klik di sini 🎁</button>
+
+    <p id="message"></p>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").innerHTML =
+        "Semoga semua impian kamu tercapai. Aku selalu ada buat kamu ❤️";
+    }
+  </script>
+
+</body>
+</html>
